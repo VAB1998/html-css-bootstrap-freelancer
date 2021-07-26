@@ -1,2 +1,30 @@
+.jumbotron{
+    background-color: aqua;
+    height: 300px;
+}
+
+.portfolio{
+    background-color: beige;
+    height: 500px;
+}
 
 
+
+
+.wooden_house{
+    background-color: red;
+    height: 50px;
+    border: 1px solid black;
+}
+.slice_of_cake{
+    background-color: red;
+    height: 50px;
+    border: 1px solid black;
+
+}
+.circus{
+    background-color: red;
+    height: 50px;
+    border: 1px solid black;
+
+}
