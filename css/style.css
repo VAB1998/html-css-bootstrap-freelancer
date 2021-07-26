@@ -1,30 +1,40 @@
+/* ------Jumbotron------- */
 .jumbotron{
     background-color: aqua;
     height: 300px;
+    margin-bottom: 50px;
 }
 
+/* -------Portfolio------- */
 .portfolio{
-    background-color: beige;
-    height: 500px;
+    margin-bottom: 50px;
 }
-
-
-
 
 .wooden_house{
+    /* Style */
     background-color: red;
-    height: 50px;
     border: 1px solid black;
+    height: 250px;
 }
 .slice_of_cake{
+    /* Style */
     background-color: red;
-    height: 50px;
     border: 1px solid black;
+    height: 250px;
 
 }
 .circus{
+    /* Style */
     background-color: red;
-    height: 50px;
     border: 1px solid black;
-
+    height:250px;
 }
+
+/* ------About------ */
+.about{
+    background-color: #5fddba;
+    color: white;
+    padding: 40px 0;
+    margin-bottom: 50px;
+}
+
