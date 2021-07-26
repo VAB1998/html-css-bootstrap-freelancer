@@ -55,6 +55,7 @@
     padding: 40px 0;
     margin-bottom: 50px;
 }
+
 .prova{
     /* Style */
     background-color: violet;
@@ -62,3 +63,16 @@
     height: 150px;
 }
 
+
+
+/* Footer */
+footer{
+    background-color: teal;
+    padding: 40px 0;
+}
+
+.prova_2{
+    background-color: tomato;
+    height: 120px;
+    border: 1px solid black;
+}
