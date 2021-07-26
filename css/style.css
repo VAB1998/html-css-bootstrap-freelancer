@@ -17,6 +17,7 @@
     /* Style */
     background-color: red;
     border: 1px solid black;
+    border-radius: 15px;
     /* Spacing and Sizing */
     height: 250px;
 }
@@ -24,6 +25,7 @@
     /* Style */
     background-color: red;
     border: 1px solid black;
+    border-radius: 15px;
     /* Spacing and Sizing */
     height: 250px;
 
@@ -32,6 +34,7 @@
     /* Style */
     background-color: red;
     border: 1px solid black;
+    border-radius: 15px;
     /* Spacing and Sizing */
     height:250px;
 }
@@ -64,15 +67,20 @@
 }
 
 
-
 /* Footer */
 footer{
+    /* Style */
     background-color: teal;
+    /* Spacing and Sizing */
     padding: 40px 0;
 }
 
 .prova_2{
+    /* Style */
     background-color: tomato;
-    height: 120px;
     border: 1px solid black;
+    /* Spacing and Sizing */
+    height: 120px;
 }
+
+
