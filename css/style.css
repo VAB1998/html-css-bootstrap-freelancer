@@ -1,12 +1,15 @@
 /* ------Jumbotron------- */
 .jumbotron{
+    /* Style */
     background-color: aqua;
+    /* Spacing and Sizing */
     height: 300px;
     margin-bottom: 50px;
 }
 
 /* -------Portfolio------- */
 .portfolio{
+    /* Spacing and Sizing */
     margin-bottom: 50px;
 }
 
@@ -14,12 +17,14 @@
     /* Style */
     background-color: red;
     border: 1px solid black;
+    /* Spacing and Sizing */
     height: 250px;
 }
 .slice_of_cake{
     /* Style */
     background-color: red;
     border: 1px solid black;
+    /* Spacing and Sizing */
     height: 250px;
 
 }
@@ -27,14 +32,33 @@
     /* Style */
     background-color: red;
     border: 1px solid black;
+    /* Spacing and Sizing */
     height:250px;
 }
 
 /* ------About------ */
 .about{
+    /* Style */
     background-color: #5fddba;
     color: white;
+    /* Spacing and Sizing */
     padding: 40px 0;
     margin-bottom: 50px;
+}
+
+
+/* ------Contact me------ */
+.contact_me{
+    /* Style */
+    background-color: teal;
+    /* Spacing and Sizing */
+    padding: 40px 0;
+    margin-bottom: 50px;
+}
+.prova{
+    /* Style */
+    background-color: violet;
+    /* Spacing and Sizing */
+    height: 150px;
 }
 
