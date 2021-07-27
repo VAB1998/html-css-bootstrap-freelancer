@@ -1,22 +1,14 @@
 /* ------Jumbotron------- */
-.jumbotron{
-    /* Style */
-    background-color: #1ad29d;
-    color: white;
-    /* Spacing and Sizing */
-    margin-bottom: 50px;
-}
-
 .jumbotron_image{
     height: 200px;
 }
 
-/* -------Portfolio------- */
-.portfolio{
-    /* Spacing and Sizing */
-    margin-bottom: 50px;
+#jumbotron{
+    /* Style */
+    background-color: #1ad29d;
+    color: white;
 }
-
+/* -------Portfolio------- */
 .portfolio_image{
     width: 100%;
     border-radius: 15px;
@@ -24,25 +16,20 @@
 
 
 /* ------About------ */
-.about{
-    /* Style */
-    background-color: #1ad29d;
-    color: white;
-    /* Spacing and Sizing */
-    margin-bottom: 50px;
-}
-
 .download_button{
     /* Style */
     border-color: white;
     background-color: #1ad29d;
 }
-/* ------Contact me------ */
-.contact_me{
-    /* Spacing and Sizing */
-    margin-bottom: 50px;
+
+#about{
+    /* Style */
+    background-color: #1ad29d;
+    color: white;
 }
 
+
+/* ------Contact me------ */
 .text_area{
     width: 100%;
 }
@@ -53,17 +40,32 @@
 }
 
 /* ------Footer------ */
-footer{
+.find_us_on{
     /* Style */
-    background-color: teal;
-    /* Spacing and Sizing */
-    padding: 40px 0;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 50%;
+        /* Spacing and Sizing */
+
+    width: 49px;
+    height: 49px; 
+    /* Other Settings */
+    line-height: 45px;
+    display: block;
+} 
+#footer_info{
+    /* Style */
+    background-color: #456a92;
+    color: white;
 }
 
-.prova_2{
+#footer_copyright{
     /* Style */
-    background-color: tomato;
-    border: 1px solid black;
-    /* Spacing and Sizing */
-    height: 120px;
+    background-color: #1b324c;
+    color: white;
 }
+
+
+
+
