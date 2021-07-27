@@ -96,26 +96,39 @@
                     </div>
                     <div class="col-12 text-center">
                         <!-- Download Button -->
-                        <input class="btn btn-primary download_button" type="button" value="Download">
+                        <button type="button" class="btn btn-primary download_button"><i class="fas fa-download"></i> Download</button>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Contact me -->
-        <section class="contact_me py-4 text-center">
+        <section class="contact_me py-4">
             <div class="container">
                 <div class="row g-3 justify-content-center">
-                    <div class="col-12">
+                    <div class="col-12 text-center">
                         <!-- Title -->
                         <h2>Contact Me</h2>
                         <div class="star_decoration">
                             <i class="fas fa-star"></i>
                         </div>
                     </div>
+                    
                     <div class="col-11 col-md-10">
-                        
-                        <div class="contact_info"></div>
+                        <form>
+                            <div class="mb-3">
+                                <!-- <label for="name" class="form-label">Name</label> -->
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                                
+                                <input type="email" class="form-control" id="email" placeholder="Email Address">
+                                
+                                <input type="tel" class="form-control" id="tel_number" maxlength="12" placeholder="Phone Number">
+                                
+                                <textarea name="" class="text_area"  rows="5" placeholder="Message"></textarea>
+                                
+                                <button type="submit" class="btn btn-primary send_button">Send</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>

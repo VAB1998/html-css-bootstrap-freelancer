@@ -39,19 +39,18 @@
 }
 /* ------Contact me------ */
 .contact_me{
-    /* Style */
-    background-color: teal;
     /* Spacing and Sizing */
     margin-bottom: 50px;
 }
 
-.contact_info{
-    /* Style */
-    background-color: violet;
-    /* Spacing and Sizing */
-    height: 150px;
+.text_area{
+    width: 100%;
 }
 
+.send_button{
+    background-color: #1ad29d;
+    border-color: #1ad29d;
+}
 
 /* ------Footer------ */
 footer{
@@ -68,8 +67,3 @@ footer{
     /* Spacing and Sizing */
     height: 120px;
 }
-
-
-
-/* ------------- */
-
