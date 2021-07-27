@@ -17,30 +17,11 @@
     margin-bottom: 50px;
 }
 
-
-
-.wooden_house_image{
+.portfolio_image{
     width: 100%;
     border-radius: 15px;
 }
 
-.slice_of_cake{
-    /* Style */
-    background-color: red;
-    border: 1px solid black;
-    border-radius: 15px;
-    /* Spacing and Sizing */
-    height: 250px;
-
-}
-.circus{
-    /* Style */
-    background-color: red;
-    border: 1px solid black;
-    border-radius: 15px;
-    /* Spacing and Sizing */
-    height:250px;
-}
 
 /* ------About------ */
 .about{
