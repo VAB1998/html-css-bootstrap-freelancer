@@ -1,10 +1,14 @@
 /* ------Jumbotron------- */
 .jumbotron{
     /* Style */
-    background-color: aqua;
+    background-color: #1ad29d;
+    color: white;
     /* Spacing and Sizing */
-    height: 300px;
     margin-bottom: 50px;
+}
+
+.jumbotron_image{
+    height: 200px;
 }
 
 /* -------Portfolio------- */
@@ -13,14 +17,13 @@
     margin-bottom: 50px;
 }
 
-.wooden_house{
-    /* Style */
-    background-color: red;
-    border: 1px solid black;
+
+
+.wooden_house_image{
+    width: 100%;
     border-radius: 15px;
-    /* Spacing and Sizing */
-    height: 250px;
 }
+
 .slice_of_cake{
     /* Style */
     background-color: red;
@@ -42,10 +45,9 @@
 /* ------About------ */
 .about{
     /* Style */
-    background-color: #5fddba;
+    background-color: #1ad29d;
     color: white;
     /* Spacing and Sizing */
-    padding: 40px 0;
     margin-bottom: 50px;
 }
 
@@ -67,7 +69,7 @@
 }
 
 
-/* Footer */
+/* ------Footer------ */
 footer{
     /* Style */
     background-color: teal;
@@ -83,4 +85,7 @@ footer{
     height: 120px;
 }
 
+
+
+/* ------------- */
 

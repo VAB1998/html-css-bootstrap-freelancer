@@ -20,19 +20,36 @@
 
     <main>
         <!-- ---Jumbotron--- -->
-        <section class="jumbotron text-center">
+        <section class="jumbotron text-center py-4">
             <div class="container">
-                <h1>Ciao</h1>
+                <div class="row justify-content-center">
+                    <div class="col-12 ">
+                        <img class="jumbotron_image" src="img/avatar.svg" alt="">
+                        
+                        <h1>START BOOTSTRAP</h1>
+
+                        <div class="star_decoration">
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                        <span>GRAPHIC ARTIST-WEB DESIGNER-ILLUSTRATOR</span>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- ---Portfolio--- -->
         <section class="portfolio text-center">
             <div class="container">
-                <h2>Portfolio</h2>
                 <div class="row g-3">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="wooden_house"></div>
+                    <div class="col-12">
+                        <h2>Portfolio</h2>
+                        <div class="star_decoration">
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">  
+                            <img class="wooden_house_image" src="img/cabin.png" alt="Wooden House">
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="slice_of_cake"></div>
@@ -54,22 +71,29 @@
         </section>
 
         <!-- ---About--- -->
-        <section class="about text-center">
+        <section class="about py-4">
             <div class="container">
-                <h2>About</h2>
                 <div class="row justify-content-center">
-                    <div class="col-md-4">
+                    <div class="col-12 text-center">
+                        <h2>About</h2>
+                        <div class="star_decoration">
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="col-11 col-md-4">
                         <div class="about_info">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ipsam architecto deleniti! Nam, doloribus voluptates? Nihil molestias nemo in repellendus quibusdam. Veritatis molestiae error tenetur officia aliquid cum voluptas reiciendis?</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-11 col-md-4">
                         <div class="about_info">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ipsam architecto deleniti! Nam, doloribus voluptates? Nihil molestias nemo in repellendus quibusdam. Veritatis molestiae error tenetur officia aliquid cum voluptas reiciendis?</p>
                         </div>
                     </div>
                 </div>
-                <button>Download</button>
+                <div class="col 12 text-center">
+                    <button>Download</button>
+                </div>
             </div>
         </section>
 
@@ -78,7 +102,7 @@
             <div class="container">
                 <h2>Contact Me</h2>
                 <div class="row justify-content-center">
-                    <div class="col-8">
+                    <div class="col-md-8">
                         <div class="contact_info"></div>
                     </div>
                 </div>
@@ -88,13 +112,16 @@
 
     <!-- Footer -->
     <footer>
+        <!-- Aggiungere due section con due container!!!!!!!!! -->
         <div class="container">
-            <div class="row justify-content-around">
-                <div class="col-12 col-md-3 location prova_2"></div>
-                <div class="col-12 col-md-3 around_the_web prova_2"></div>
-                <div class="col-12 col-md-3 about_freelancer prova_2"></div>
+            <div class="row justify-content-center g-3">
+                <div class="col-11 col-md-4 location prova_2"></div>
+                <div class="col-11 col-md-4 around_the_web prova_2"></div>
+                <div class="col-11 col-md-4 about_freelancer prova_2"></div>
             </div>
         </div>
     </footer>
   </body>
 </html>
+
+<!-- Cambiare le class con id -->
