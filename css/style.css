@@ -1,3 +1,16 @@
+
+.nav_bar_menu{
+    flex-grow: 0;
+}
+
+#ms_nav_bar{
+   /* Style */
+   background-color: #1b324c;
+   color: white;
+}
+#ms_nav_bar a{
+    color: white;
+}
 /* ------Jumbotron------- */
 .jumbotron_image{
     height: 200px;
