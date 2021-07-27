@@ -32,13 +32,16 @@
     margin-bottom: 50px;
 }
 
-
+.download_button{
+    /* Style */
+    border-color: white;
+    background-color: #1ad29d;
+}
 /* ------Contact me------ */
 .contact_me{
     /* Style */
     background-color: teal;
     /* Spacing and Sizing */
-    padding: 40px 0;
     margin-bottom: 50px;
 }
 
