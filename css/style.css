@@ -1,5 +1,6 @@
-
+/* Navigation Bar */
 .nav_bar_menu{
+    /* Flex Settings */
     flex-grow: 0;
 }
 
@@ -9,8 +10,11 @@
    color: white;
 }
 #ms_nav_bar a{
+    /* Style */
     color: white;
 }
+
+
 /* ------Jumbotron------- */
 .jumbotron_image{
     height: 200px;
@@ -21,6 +25,8 @@
     background-color: #1ad29d;
     color: white;
 }
+
+
 /* -------Portfolio------- */
 .portfolio_image{
     width: 100%;
@@ -59,14 +65,14 @@
     color: white;
     font-size: 1.2em;
     border-radius: 50%;
-        /* Spacing and Sizing */
-
+    /* Spacing and Sizing */
     width: 49px;
     height: 49px; 
     /* Other Settings */
     line-height: 45px;
     display: block;
 } 
+
 #footer_info{
     /* Style */
     background-color: #456a92;
